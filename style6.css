@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    position: relative;
+}
+.fa-magnifying-glass{
+    padding: 10px;
+}
+.input{
+    border: none;
+    outline: none;
+    color: rgb(235, 235, 235);
+    background-color: #f7f7f7;
+}
+.fa-magnifying-glass{
+    color: #606770;
+}
+.text a{
+    text-decoration: none;
+     /* border: 1px solid #606770; */
+    color: #606770;
+}
+.text{
+    border: 3px solid #606770;
+    padding: 5px;
+    /* width: 1250px; */
+}
+.icon a{
+    text-decoration: none;
+    color: #606770;
+    margin: 10px;
+
+}
+.icon a:hover{
+    color: black;
+    background-color: rgb(216, 213, 213);
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 50%;
+
+}
+.icon img{
+    position: absolute;
+    right: 130px;
+    bottom: 38px;
+}
+.icon img:hover{
+    box-shadow: 0px 10px 10px #ccc;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+.nav-middle{
+    display: flex;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-middle a{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #606770;
+    font-family:Arial, Helvetica, sans-serif
+}
+.nav-middle a:hover{
+    color: #7411a6;
+}
+.alone{
+    display: flex;
+}
+.alone2 a{
+    color: #610092;
+}
+.alone .fa-angle-down{
+    position: relative;
+    top: 5px;
+    left: 6px;
+     bottom: 25px;
+    font-size: 10px;
+ }
+.alone1 .fa-angle-down{
+     position: relative;
+     /* top: 5px; */
+    left: 60px;
+    bottom: 20px;
+    font-size: 10px;
+}
+.all{
+    position: relative;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 1240px;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.all h5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.all1{
+    position: relative;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    width: 1240px;
+    height: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    /* background-color: #f1f1f1; */
+    margin-bottom: 200px;
+}
+.all1 h5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-circle-check{
+    color: rgb(40, 201, 40);
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.eend h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+.eend p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.eend a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot1{
+    position: relative;
+    bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eend  button{
+    background-color: #610092;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    margin-bottom: 150px;
+}
+.eend  button:hover{
+    background-color: #8b04cf;
+    box-shadow: 5px 5px #ddd;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.foot{
+    margin: 40px;
+    margin-bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot p{
+    margin-bottom: 15px;
+    color: #606770;
+}
+.foot5 h2{
+    position: relative;
+    bottom: 70px;
+    /* margin-bottom: 40px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.foot5 p{
+    position: relative;
+    bottom: 48px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606770;
+}
+.foot1{
+    position: relative;
+}
+.foot1 img{
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.foot1 h5{
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.foot1 h4{
+    margin-bottom: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot1 p{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.foot2{
+    margin-left: 50px;
+}
+.foot2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.fooot{
+    display: flex;
+}
+.fooot p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.foot2 button{
+position: absolute;
+right: 175px;
+/* bottom: 130px; */
+background-color: #7411a6;
+border-radius: 5px;
+width: 77px;
+height: 40px;
+border: 1px solid #7411a6;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.foot2 button:hover{
+    background-color: #4a0d69;
+    box-shadow: 0px 10px 10px #520c75;
+}
+.foot2 input{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+.fa-location-dot{
+    color: #620c8e;
+}
+.fa-phone{
+    color: #620c8e;
+}.fa-envelope{
+    color: #620c8e;
+}.fa-location-dot{
+    color: #620c8e;
+}
+.hh{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
